@@ -1,0 +1,15 @@
+[package]
+name = "teacher-performace-tracker"
+version = "1.0.0"
+authors = []
+
+[addresses]
+TeacherTracker = "0xd5099b4d15e85c6c3c11390a27732cc0d33e98a03cea4e36a3b0e9ec861c355"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
